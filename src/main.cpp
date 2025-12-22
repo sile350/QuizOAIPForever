@@ -1,5 +1,10 @@
-#include <iostream>
+#include "Application.h"
 
-int main() {
-	return 0;
+int main()
+{
+    Init();
+    Run();
+    Shutdown();
+
+    return 0;
 }
